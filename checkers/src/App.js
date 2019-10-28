@@ -1,12 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
 import "./components/css/style.css";
+import Jumbo from "./components/jumbotron.js"
 
 function App() {
 
   return (
     <div className="App">
 
+      <Jumbo />
       <div className="container">
 
         <div className="row">
@@ -28,14 +29,14 @@ function App() {
 
               {/* Row B */}
               <div className="row">
-                <div id="B1" className="square black"></div>
-                <div id="B2" className="square red"></div>
-                <div id="B3" className="square black"></div>
-                <div id="B4" className="square red"></div>
-                <div id="B5" className="square black"></div>
-                <div id="B6" className="square red"></div>
-                <div id="B7" className="square black"></div>
-                <div id="B8" className="square red"></div>
+                <div id="B1" className="square red"></div>
+                <div id="B2" className="square black"></div>
+                <div id="B3" className="square red"></div>
+                <div id="B4" className="square black"></div>
+                <div id="B5" className="square red"></div>
+                <div id="B6" className="square black"></div>
+                <div id="B7" className="square red"></div>
+                <div id="B8" className="square black"></div>
               </div>
 
               {/* Row C */}
@@ -52,14 +53,14 @@ function App() {
 
               {/* Row D */}
               <div className="row">
-                <div id="D1" className="square black"></div>
-                <div id="D2" className="square red"></div>
-                <div id="D3" className="square black"></div>
-                <div id="D4" className="square red"></div>
-                <div id="D5" className="square black"></div>
-                <div id="D6" className="square red"></div>
-                <div id="D7" className="square black"></div>
-                <div id="D8" className="square red"></div>
+                <div id="D1" className="square red"></div>
+                <div id="D2" className="square black"></div>
+                <div id="D3" className="square red"></div>
+                <div id="D4" className="square black"></div>
+                <div id="D5" className="square red"></div>
+                <div id="D6" className="square black"></div>
+                <div id="D7" className="square red"></div>
+                <div id="D8" className="square black"></div>
               </div>
 
               {/* Row E */}
@@ -76,14 +77,14 @@ function App() {
 
               {/* Row F */}
               <div className="row">
-                <div id="F1" className="square black"></div>
-                <div id="F2" className="square red"></div>
-                <div id="F3" className="square black"></div>
-                <div id="F4" className="square red"></div>
-                <div id="F5" className="square black"></div>
-                <div id="F6" className="square red"></div>
-                <div id="F7" className="square black"></div>
-                <div id="F8" className="square red"></div>
+                <div id="F1" className="square red"></div>
+                <div id="F2" className="square black"></div>
+                <div id="F3" className="square red"></div>
+                <div id="F4" className="square black"></div>
+                <div id="F5" className="square red"></div>
+                <div id="F6" className="square black"></div>
+                <div id="F7" className="square red"></div>
+                <div id="F8" className="square black"></div>
               </div>
 
               {/* Row G */}
@@ -100,14 +101,14 @@ function App() {
 
               {/* Row H */}
               <div className="row">
-                <div id="H1" className="square black"></div>
-                <div id="H2" className="square red"></div>
-                <div id="H3" className="square black"></div>
-                <div id="H4" className="square red"></div>
-                <div id="H5" className="square black"></div>
-                <div id="H6" className="square red"></div>
-                <div id="H7" className="square black"></div>
-                <div id="H8" className="square red"></div>
+                <div id="H1" className="square red"></div>
+                <div id="H2" className="square black"></div>
+                <div id="H3" className="square red"></div>
+                <div id="H4" className="square black"></div>
+                <div id="H5" className="square red"></div>
+                <div id="H6" className="square black"></div>
+                <div id="H7" className="square red"></div>
+                <div id="H8" className="square black"></div>
               </div>
 
             </div>
