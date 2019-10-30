@@ -26,7 +26,6 @@ function App() {
                 <div id="A8" className="square red"></div>
               </div>
 
-
               {/* Row B */}
               <div className="row">
                 <div id="B1" className="square red"></div>
