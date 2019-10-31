@@ -1,5 +1,6 @@
 import React from "react";
 import "./components/css/style.css";
+import Checker from "./components/checker.js"
 import Jumbo from "./components/jumbotron.js"
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           <div className=" col-10 col-sm-10 col-md-10 col-lg-10">
             <div className="board">
               <div className="row">
-                <div id="A1" className="square black"></div>
+                <div id="A1" className="square black"><Checker/></div>
                 <div id="A2" className="square red"></div>
                 <div id="A3" className="square black"></div>
                 <div id="A4" className="square red"></div>

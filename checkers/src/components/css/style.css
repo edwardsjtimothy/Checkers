@@ -12,6 +12,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid whitesmoke;
+    /* position: relative; */
 }
 
 .board {
@@ -27,3 +28,21 @@
     background-color: black;
 }
 
+.gray {
+    background-color: gray;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+/* the checkers */
+
+.checker {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left:13px;
+    top: 13px;
+}
