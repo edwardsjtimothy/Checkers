@@ -12,8 +12,8 @@ function App() {
 
         <div className="row">
 
-          <div className="col col-sm-1 col-md-1 col-lg-1"></div>
-          <div className=" col col-sm-10 col-md-10 col-lg-10">
+          <div className="col-1 col-sm-1 col-md-1 col-lg-2"></div>
+          <div className=" col-10 col-sm-10 col-md-10 col-lg-10">
             <div className="board">
               <div className="row">
                 <div id="A1" className="square black"></div>
@@ -114,7 +114,7 @@ function App() {
 
             {/* Row A */}
           </div>
-          <div className="col col-sm-1 col-md-1 col-lg-1"></div>
+          <div className="col-1 col-sm-1 col-md-1 col-lg-0"></div>
         </div>
       </div>
     </div>
