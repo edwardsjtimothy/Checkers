@@ -9,11 +9,7 @@ function App() {
   // this.pieceSelect = this.pieceSelect.bind(this);
   //function for selecting a checker
 
-  function pieceSelect () {
-      console.log("clicked");
-      alert("hello");
   
-  }; 
 
   return (
     <div className="App">
@@ -27,7 +23,7 @@ function App() {
           <div className=" col-10 col-sm-10 col-md-10 col-lg-10">
             <div className="board">
               <div className="row">
-                <div id="A1" className="square black"><Whitechecker onClick={pieceSelect}/></div>
+                <div id="A1" className="square black"><Whitechecker /></div>
                 <div id="A2" className="square red"></div>
                 <div id="A3" className="square black"><Whitechecker /></div>
                 <div id="A4" className="square red"></div>
