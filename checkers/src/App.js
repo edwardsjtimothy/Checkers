@@ -4,12 +4,7 @@ import Whitechecker from "./components/whiteChecker.js";
 import Bluechecker from "./components/blueChecker.js";
 import Jumbo from "./components/jumbotron.js";
 
-function App() {
-
-  // this.pieceSelect = this.pieceSelect.bind(this);
-  //function for selecting a checker
-
-  
+function App(props) {
 
   return (
     <div className="App">
