@@ -46,3 +46,7 @@
     left:13px;
     top: 13px;
 }
+
+.checker:focus {
+    background-color: black;
+} 

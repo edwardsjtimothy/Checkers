@@ -19,11 +19,13 @@ export default class whiteChecker extends Component {
         // C7: true
     }
 
+    //function for selecting and moving white checkers
     pieceSelect=(e)=> {
+        let piece = e.target
+        piece.focus();
         let startingPosition = e.target.parentNode.id;
         console.log(startingPosition);
-        this.setState({ startingPosition : true });
-        console.log(this.state);
+        this.setState({ startingPosition });
     }
 
     render() {
