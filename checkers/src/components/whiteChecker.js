@@ -2,29 +2,33 @@ import "./css/style.css"
 import React, { Component } from 'react'
 
 
-const pieceSelect=(e)=> {
-    console.log(e.target.parentNode.id);
-}
 export default class whiteChecker extends Component {
-
+    
     state = {
-        whiteOne: "A1",
-        whiteTwo: "A3",
-        whiteThree: "A5",
-        whiteFour: "A7",
-        whiteFive: "B2",
-        whiteSix: "B4",
-        whiteSeven: "B6",
-        whiteEight: "B8",
-        whiteNine: "C1",
-        whiteTen: "C3",
-        whiteEleven: "C5",
-        whiteTwelve: "C7"
+        // A1: true,
+        // A3: true,
+        // A5: true,
+        // A7: true,
+        // B2: true,
+        // B4: true,
+        // B6: true,
+        // B8: true,
+        // C1: true,
+        // C3: true,
+        // C5: true,
+        // C7: true
+    }
+
+    pieceSelect=(e)=> {
+        let startingPosition = e.target.parentNode.id;
+        console.log(startingPosition);
+        this.setState({ startingPosition : true });
+        console.log(this.state);
     }
 
     render() {
         return (
-            <div className="checker white" onClick={pieceSelect}>
+            <div className="checker white" onClick={this.pieceSelect}>
             </div>
         )
     }
