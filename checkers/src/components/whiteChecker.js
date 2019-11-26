@@ -9,27 +9,18 @@ export default class whiteChecker extends Component {
         this.pieceSelect = this.pieceSelect.bind(this);
       }
 
-    // componentDidUpdate() {
-    //     console.log(this.hereIAm.current.focus());
-    // }  
-
-    onFocus() {
-        document.body.style.backgroundColor = "red"
-    };
-
     //function for selecting and moving white checkers
     pieceSelect=(e)=> { 
-        // let focus =this.hereIAm.current.focus(e); 
-        e.target.focus()
+        let focus = this.hereIAm.current
         let startingPosition = e.target.parentNode.id;
-        // console.log(focus);
+        focus.classList.toggle("checker-focus");
         console.log(startingPosition);
         this.setState({ startingPosition });
     }
 
     render() {
         return (
-            <div className="checker white" onClick={ this.pieceSelect} onFocus={this.onFocus} ref={this.hereIAm} >
+            <div className="checker white" onClick={ this.pieceSelect} ref={this.hereIAm} >
             </div>
         )
     }

@@ -47,6 +47,9 @@
     top: 13px;
 }
 
-.checker:focus {
-    background-color: black;
-} 
+.checker-focus {
+    height: 90px;
+    width: 90px;
+    left:4px;
+    top: 4px;
+}
