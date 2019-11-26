@@ -13,7 +13,7 @@ export default class whiteChecker extends Component {
     //     console.log(this.hereIAm.current.focus());
     // }  
 
-    onFocus(e) {
+    onFocus() {
         document.body.style.backgroundColor = "red"
     };
 
