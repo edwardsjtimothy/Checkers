@@ -7,8 +7,9 @@ export default class whiteChecker extends Component {
         super(props);
         this.hereIAm = React.createRef();
         this.pieceSelect = this.pieceSelect.bind(this);
+        
       }
-
+    
     //function for selecting and moving white checkers
     pieceSelect=(e)=> { 
         let focus = this.hereIAm.current
@@ -20,7 +21,7 @@ export default class whiteChecker extends Component {
 
     render() {
         return (
-            <div className="checker white" onClick={this.pieceSelect} ref={this.hereIAm} >
+            <div className="checker white" onClick={this.pieceSelect} ref={this.hereIAm}>
             </div>
         )
     }

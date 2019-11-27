@@ -5,6 +5,8 @@ import "./css/style.css";
 
 export default class Gameboard extends Component {
 
+   
+
 // handleClick = (e) => {
 //   e.preventDefault();
 //   const active = document.querySelector('.active');
