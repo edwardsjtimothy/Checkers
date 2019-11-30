@@ -7,7 +7,6 @@ export default class whiteChecker extends Component {
         super(props);
         this.hereIAm = React.createRef();
         this.pieceSelect = this.pieceSelect.bind(this);
-        
       }
     
     //function for selecting and moving white checkers
