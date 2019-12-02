@@ -16,9 +16,20 @@ export default class Gameboard extends Component {
 //   e.currentTarget.classList.add('active');
 // }
 
+  boardCreate =()=> {
+    const rowInc = 1; 
+    const squareInc = 1; 
+    const row = document.createElement("DIV");
+
+    for(i = 0; i = 8; i++) {
+      document.getElementById("board").appendChild(row);
+    }
+
+  }
+
     render() {
         return (
-            <div className="board">
+            <div id="board">
                 {/* Row A */}
               <div className="row">
                 <div id="A1" className="square black"><Whitechecker /></div>
