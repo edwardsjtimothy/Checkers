@@ -17,11 +17,13 @@ export default class Gameboard extends Component {
 // }
 
   boardCreate =()=> {
-    const rowInc = 1; 
-    const squareInc = 1; 
-    const row = document.createElement("DIV");
+    const color = 0;
+    const row = document.createElement("DIV").classList.add("row");
+    const sqaure = document.createElement("DIV").classList.add("square");
+    const redClass = square.classList.add("red");
+    const blackClass = square.classList.add("black");
 
-    for(i = 0; i = 8; i++) {
+    for(let i = 0; i = 8; i++) {
       document.getElementById("board").appendChild(row);
     }
 
